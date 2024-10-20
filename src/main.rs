@@ -1,17 +1,20 @@
-mod sudoku;
-mod sudoku_solver;
-mod rectangles;
+mod common_prefix;
 mod max_average_ratio;
 mod pivot_integer;
+mod rectangles;
 mod salesman;
+mod sodoku2;
+mod sudoku;
+mod sudoku_solver;
+mod min_cost_1928;
+mod parsing_bool;
 
 pub struct Solution;
 
-use core::panic;
-use std::collections::{BinaryHeap, HashMap, HashSet};
+use std::collections::{HashMap, HashSet};
 
 fn main() {
-    println!("Hello, world!");
+    panic!("why are you running main lol");
 }
 
 impl Solution {
